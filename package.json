@@ -1,0 +1,41 @@
+{
+  "name": "myapp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+     "ngrok": "ngrok http 3000",
+     "starter":"node httpsServer.js"
+  },
+  "dependencies": {
+   "@types/facebook-js-sdk": "^3.3.6",
+    "@types/node": "20.5.9",
+    "@types/react": "18.2.21",
+    "@types/react-dom": "18.2.7",
+    "@types/react-facebook-login": "^4.1.5",
+    "autoprefixer": "10.4.15",
+    "axios": "^1.5.0",
+    "eslint": "8.48.0",
+    "eslint-config-next": "13.4.19",
+    "formik": "^2.4.4",
+    "next": "13.4.19",
+    "next-auth": "^4.23.1",
+    "ngrok": "^5.0.0-beta.2",
+    "postcss": "8.4.29",
+    "react": "^18.2.0",
+    "react-dom": "18.2.0",
+    "react-facebook": "^9.0.12",
+    "react-facebook-sdk": "^1.1.1",
+    "react-icons": "^4.11.0",
+    "react-social-login-buttons": "^3.9.1",
+    "reactjs-social-login": "^2.6.3",
+    "sweetalert2": "^11.7.27",
+    "swr": "^2.2.2",
+    "tailwindcss": "3.3.3",
+    "typescript": "5.2.2",
+    "yup": "^1.2.0"
+  }
+}

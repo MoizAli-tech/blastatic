@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
+:root{
+  --darkBlue:#143059;
+  --white :#fcfcfb;
+  --gray:#6b7280;
+  --lightGray:#72839b;
+  --semiGray:#e9e9e9;
+  --orange:#fba919;
+  --lightOrange:#fbc619a8;
+}
+
+.bgGray{
+  background-color: var(--gray);
+}
+
+.bgModel{
+  background-color: rgba(0, 0, 0, 0.774);
+}
+
+
+
+.iconWrapper{
+  font-size:1.5rem;
+  transition:transform 1s ease;
+  border-radius:50%; 
+  padding:10px;
+  cursor:pointer;
+}
+
+.iconWrapper:hover{
+  transform:scale(1.1);
+}

@@ -1,0 +1,29 @@
+
+
+.postWrapper{
+    background-color: var(--white);
+}
+
+.hr{
+    height:2px;
+   
+}
+
+.function:hover .functionTransition{
+    display:block;
+
+}
+
+.functionTransition{
+    display:none;
+}
+
+.submit{
+    background-color: var(--orange);
+    color:var(--darkBlue)
+}
+
+.submit:hover{
+    background-color: var(--lightOrange);
+   
+}

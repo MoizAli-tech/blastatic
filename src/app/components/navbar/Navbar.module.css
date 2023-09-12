@@ -1,0 +1,8 @@
+.navbar{
+    background-color:var(--darkBlue);
+}
+
+.navIcons{
+    color:var(--white);
+    background-color: var(--lightGray);
+}
